@@ -1,0 +1,70 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:gravity="end"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_close_24"
+                    android:layout_gravity="end"
+                    android:backgroundTint="@color/textcolorprimary"
+                    android:id="@+id/iv_close"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="350dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/predictpopup" />
+
+                <TextView
+                    android:id="@+id/tvpredictaccess"
+                    android:textColor="@color/textcolorprimary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:textStyle="bold"
+                    android:justificationMode="none"
+                    android:text=""
+                    android:textSize="16dp"/>
+
+                <Button
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonborder"
+                    android:layout_margin="20dp"
+                    android:text="Continue"
+                    android:textColor="@color/textcolorprimary"
+                    android:textStyle="bold"
+                    android:id="@+id/btnpredictaccess"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

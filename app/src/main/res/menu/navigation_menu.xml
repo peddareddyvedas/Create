@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="HardcodedText">
+
+    <group android:checkableBehavior="single">
+        <item android:title="GoldSikkaGullak">
+           <menu>
+                <group
+                android:id="@+id/menu_top" android:checkableBehavior="single">
+                    <item
+                        android:checkable="true"
+                        android:id="@+id/goldsuvidhamenubtn"
+                        android:icon="@drawable/goldsuvidamenu"
+                        android:title="GoldSuvidha"/>
+                    <item
+                        android:checkable="true"
+                        android:id="@+id/sellgoldmenubtn"
+                        android:icon="@drawable/sellgoldmenu"
+                        android:title="SellGold"/>
+                    <item
+                        android:checkable="true"
+                        android:id="@+id/redeemmenubtn"
+                        android:icon="@drawable/redeemmenu"
+                        android:title="Redeem"/>
+                    <item
+                        android:checkable="true"
+                        android:id="@+id/transfermenubtn"
+                        android:icon="@drawable/transfermenu"
+                        android:title="Transfer"/>
+                </group>
+           </menu>
+        </item>
+    </group>
+
+
+    <item
+        android:checkable="true"
+        android:id="@+id/moneywalletmenubtn"
+        android:icon="@drawable/moneywalletmenu"
+        android:title="MoneyWallet"/>
+    <item
+        android:checkable="true"
+        android:id="@+id/referandearnmenubtn"
+        android:icon="@drawable/referandearnmenu"
+        android:title="Refer and Earn"/>
+    <item
+        android:checkable="true"
+        android:id="@+id/feedbackmenubtn"
+        android:icon="@drawable/feedbackmenu"
+        android:title="Feedback"/>
+    <item
+        android:checkable="true"
+        android:id="@+id/loyalitypointsmenubtn"
+        android:icon="@drawable/loyalitypointsmenu"
+        android:title="LoyalityPoints"/>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Schemes">
+            <menu>
+                <group
+                    android:id="@+id/menu_btw" android:checkableBehavior="single">
+                    <item
+                        android:checkable="true"
+                        android:id="@+id/mygoldchitmenubtn"
+                        android:icon="@drawable/goldchitmenu"
+                        android:title="My Gold 2022"/>
+                    <item
+                        android:checkable="true"
+                        android:id="@+id/mygoldplusmenubtn"
+                        android:icon="@drawable/goldplusmenu"
+                        android:title="My GoldPlus Plan"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Gift/Donate">
+            <menu>
+                <group
+                    android:id="@+id/menu_bottom" android:checkableBehavior="single">
+                    <item
+                        android:checkable="true"
+                        android:id="@+id/Eventsmenubtn"
+                        android:icon="@drawable/goldchitmenu"
+                        android:title="Events"/>
+                    <item
+                        android:checkable="true"
+                        android:id="@+id/donatemenubtn"
+                        android:icon="@drawable/goldplusmenu"
+                        android:title="Donate"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+
+</menu>

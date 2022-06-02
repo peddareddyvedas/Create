@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Latest Project In XYU_G/redebug/app/src/main/res/layout/activity_elevenplus__jewellery.xml" value="0.12454710144927536" />
+        <entry key="..\:/Latest Project In XYU_G/redebug/app/src/main/res/layout/activity_jewellery_home.xml" value="0.12047101449275362" />
+        <entry key="..\:/Latest Project In XYU_G/redebug/app/src/main/res/layout/activity_main_fragment2.xml" value="0.33" />
+        <entry key="..\:/Latest Project In XYU_G/redebug/app/src/main/res/layout/activity_on_board_screen.xml" value="0.12409420289855072" />
+        <entry key="..\:/Latest Project In XYU_G/redebug/app/src/main/res/layout/activity_subcatagory.xml" value="0.18854166666666666" />
+        <entry key="..\:/Latest Project In XYU_G/redebug/app/src/main/res/layout/activity_whislistcart.xml" value="0.25" />
+        <entry key="..\:/Latest Project In XYU_G/redebug/app/src/main/res/layout/activity_wishlist.xml" value="0.1" />
+        <entry key="..\:/Latest Project In XYU_G/redebug/app/src/main/res/layout/activityproductdiscreption_new.xml" value="0.12454710144927536" />
+        <entry key="..\:/Latest Project In XYU_G/redebug/app/src/main/res/layout/homefragment.xml" value="0.1" />
+        <entry key="..\:/Latest Project In XYU_G/redebug/app/src/main/res/layout/productinfo.xml" value="0.1859375" />
+        <entry key="..\:/Latest Project In XYU_G/redebug/app/src/main/res/layout/productitemhome.xml" value="0.18854166666666666" />
+        <entry key="..\:/Latest Project In XYU_G/redebug/app/src/main/res/layout/schmeslist.xml" value="0.18854166666666666" />
+        <entry key="..\:/Latest Project In XYU_G/redebug/app/src/main/res/layout/slider_layout.xml" value="0.1859375" />
+        <entry key="..\:/Latest Project In XYU_G/redebug/app/src/main/res/menu/navigation_menu.xml" value="0.18854166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

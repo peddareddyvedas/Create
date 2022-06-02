@@ -1,0 +1,128 @@
+ <FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/LightBrown2"
+    android:id="@+id/framelayoutmain"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_marginBottom="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mainframelayout">
+    </FrameLayout>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <LinearLayout
+            android:id="@+id/llhome"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="24dp"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivhome"
+                android:backgroundTint="@color/Gold"
+                android:src="@drawable/home_active"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/ivdothome"
+                android:layout_marginTop="3dp"
+                android:visibility="gone"
+                android:src="@drawable/dots_background"
+                android:layout_width="5dp"
+                android:layout_height="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llpassbook"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="24dp"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/ivpassbook"
+                android:src="@drawable/passbooknew"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/ivdotpassbook"
+                android:layout_marginTop="3dp"
+                android:visibility="gone"
+                android:src="@drawable/dots_background"
+                android:layout_width="5dp"
+                android:layout_height="5dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llabout"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="24dp"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/ivabout"
+                android:src="@drawable/about"
+                android:layout_width="25dp"
+                android:tint="@color/Gold"
+                android:layout_height="wrap_content"
+                tools:ignore="UseAppTint" />
+            <ImageView
+                android:id="@+id/ivdotabout"
+                android:layout_marginTop="3dp"
+                android:visibility="gone"
+                android:src="@drawable/dots_background"
+
+                android:layout_width="5dp"
+                android:layout_height="5dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llsettings"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="24dp"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:tint="@color/Gold"
+                android:id="@+id/ivsettings"
+                android:src="@drawable/account"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseAppTint" />
+
+            <ImageView
+                android:id="@+id/ivdotsettings"
+                android:layout_marginTop="3dp"
+                android:visibility="gone"
+                android:src="@drawable/dots_background"
+                android:layout_width="5dp"
+                android:layout_height="5dp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
